@@ -22,7 +22,7 @@ body {
     font-family: "Georgia", "Times New Roman", serif;
     font-weight: normal;
     font-style: normal;
-    font-size: 1em;
+    font-size: 20px;
 }
 
 /*
@@ -278,7 +278,7 @@ footer p {
     margin-left: 350px;
     bottom: 15px;
     color: #677435;
-    font-size: 0.8em
+    font-size: 12.8px;
 }
 
 footer p a, footer p a:active, footer p a:visited, footer p a:hover {
@@ -302,7 +302,7 @@ footer p a:hover {
 
 #language-switcher a, #language-switcher a:visited, #language-switcher a:active {
     color: #A3A5A5;
-    font-size: 0.8em;
+    font-size: 12.8px;
     text-decoration: none;
     padding: 0 10px;
 }
@@ -351,7 +351,7 @@ header div {
 
 header .title {
     font-family: "Sreda", "Georgia", "Times New Roman", serif;
-    font-size: 3.7em;
+    font-size: 59.2px;
     color: #8E6454;
     top: 45px;
 
@@ -359,7 +359,7 @@ header .title {
 
 header .subtitle {
     font-family: "Georgia", serif;
-    font-size: 2.2em;
+    font-size: 35.2px;
     color: #9B7664;
     top: 130px;
 
@@ -374,7 +374,7 @@ header .year {
 }
 
 header .bride {
-    left: 270px;
+    left: 290px;
     -webkit-transform: rotate(353deg);
     -moz-transform: rotate(353deg);
     -o-transform: rotate(353deg);
@@ -384,11 +384,11 @@ header .bride {
 
 header .groom {
     right: 0%;
-    margin-right: 230px;
-    -webkit-transform: rotate(7deg);
-    -moz-transform: rotate(7deg);
-    -o-transform: rotate(7deg);
-    transform: rotate(7deg);
+    margin-right: 220px;
+    -webkit-transform: rotate(8.5deg);
+    -moz-transform: rotate(8.5deg);
+    -o-transform: rotate(8.5deg);
+    transform: rotate(8.5deg);
     writing-mode: lr-tb;
 }
 
@@ -491,6 +491,15 @@ html.no-touch nav ul li:hover {
     background: url('../img/house.png') no-repeat;
 }
 
+#fall-right {
+    position: absolute;
+    top: 20%;
+    right: 0px;
+    width: 326px;
+    height: 269px;
+    background: url('../img/fall.png') no-repeat;
+    z-index: 200;
+}
 #proposal-island {
     position: absolute;
     left: 0px;
@@ -558,7 +567,7 @@ html.no-touch nav ul li:hover {
     position: absolute;
     width: 250px;
     top: 20%;
-    z-index: 10;
+    z-index: 200;
     color: #666666;
 }
 
@@ -578,7 +587,7 @@ html.no-touch nav ul li:hover {
     font-family: "Sreda", "Georgia", "Times New Roman", serif;
     margin-top: 150px;
     margin-bottom: 13px;
-    font-size: 1.5em;
+    font-size: 24px;
     line-height: 1em;
     font-weight: 300;
     display: block;
@@ -593,6 +602,13 @@ html.no-touch nav ul li:hover {
 .moment p.left {
     /*margin-right: auto;*/
     /*margin-left: 50px;*/
+}
+#zone-marriage p.right {
+    background: 1% 1% url('../img/dark_cloud3.png') no-repeat;
+}
+
+#zone-marriage p.left {
+    background: 85% 35% url('../img/party.png') no-repeat;
 }
 
 #zone-in-love p {
@@ -681,6 +697,16 @@ html.no-touch nav ul li:hover {
     z-index: 10;
 
 }
+.dark-cloud-4 {
+    position: absolute;
+    top: 20%;
+    right: 0px;
+    width: 372px;
+    height: 127px;
+    background: url('../img/dark_cloud3.png') no-repeat;
+    z-index: 200;
+}
+
 
 .clouding {
     animation: cloud 5s linear infinite;
@@ -784,6 +810,14 @@ html.no-touch nav ul li:hover {
     background-size: 326px 269px;
   }
 
+  #fall-right {
+    background-image: url('../img/fall@2x.png');
+    background-size: 326px 269px;
+  }
+  .dark-cloud-4 {
+    background-image: url('../img/dark_cloud3@2x.png');
+    background-size: 373px 127px;
+  }
   #zone-in-love p {
     background-image: url('../img/leaves@2x.png');
     background-size: 70px 40px;
